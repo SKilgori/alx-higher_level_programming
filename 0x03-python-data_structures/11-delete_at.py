@@ -1,3 +1,4 @@
+"""Module documentation for 11-delete_at.py."""
 #!/usr/bin/python3
 
 def delete_at(my_list=[], idx=0):

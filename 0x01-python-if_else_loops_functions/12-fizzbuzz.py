@@ -1,3 +1,4 @@
+"""Module documentation for 12-fizzbuzz.py."""
 #!/usr/bin/python3
 
 def fizzbuzz():

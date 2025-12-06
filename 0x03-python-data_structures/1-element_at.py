@@ -1,3 +1,4 @@
+"""Module documentation for 1-element_at.py."""
 #!/usr/bin/python3
 
 def element_at(my_list, idx):

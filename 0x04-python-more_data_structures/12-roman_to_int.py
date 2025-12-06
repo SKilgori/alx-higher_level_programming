@@ -1,7 +1,16 @@
+"""Module documentation for 12-roman_to_int.py."""
 #!/usr/bin/python3
 
 
 def roman_to_int(roman_string):
+    """roman_to_int - Function documentation.
+    
+    Args:
+        roman_string: Description of roman_string.
+    
+    Returns:
+        Description of the return value.
+    """
     if not roman_string or type(roman_string) != str:
         return 0
     total = 0

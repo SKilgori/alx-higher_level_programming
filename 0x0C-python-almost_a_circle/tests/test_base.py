@@ -1,3 +1,4 @@
+"""Module documentation for test_base.py."""
 # #!/usr/bin/python3
 # """Defines unittests for base.py.
 

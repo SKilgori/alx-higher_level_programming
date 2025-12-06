@@ -1,3 +1,4 @@
+"""Module documentation for test_square.py."""
 # #!/usr/bin/python3
 # """Unittest square.
 # Test cases for the Square class.
