@@ -1,3 +1,4 @@
+"""Module documentation for 5-no_c.py."""
 #!/usr/bin/python3
 
 def no_c(my_string):

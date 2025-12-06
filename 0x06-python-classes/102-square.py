@@ -22,6 +22,24 @@ class Square:
 
     @size.setter
     def size(self, value):
+        """size - Function documentation.
+        
+        Args:
+            self: Description of self.
+            value: Description of value.
+        
+        Returns:
+            Description of the return value.
+        """
+        """size - Function documentation.
+        
+        Args:
+            self: Description of self.
+            value: Description of value.
+        
+        Returns:
+            Description of the return value.
+        """
         if not isinstance(value, int):
             raise TypeError('size must be an integer')
         if value < 0:
@@ -35,19 +53,127 @@ class Square:
         return self.__size * self.__size
 
     def __le__(self, other):
+        """__le__ - Function documentation.
+        
+        Args:
+            self: Description of self.
+            other: Description of other.
+        
+        Returns:
+            Description of the return value.
+        """
+        """__le__ - Function documentation.
+        
+        Args:
+            self: Description of self.
+            other: Description of other.
+        
+        Returns:
+            Description of the return value.
+        """
         return self.area() <= other.area()
 
     def __lt__(self, other):
+        """__lt__ - Function documentation.
+        
+        Args:
+            self: Description of self.
+            other: Description of other.
+        
+        Returns:
+            Description of the return value.
+        """
+        """__lt__ - Function documentation.
+        
+        Args:
+            self: Description of self.
+            other: Description of other.
+        
+        Returns:
+            Description of the return value.
+        """
         return self.area() < other.area()
 
     def __ge__(self, other):
+        """__ge__ - Function documentation.
+        
+        Args:
+            self: Description of self.
+            other: Description of other.
+        
+        Returns:
+            Description of the return value.
+        """
+        """__ge__ - Function documentation.
+        
+        Args:
+            self: Description of self.
+            other: Description of other.
+        
+        Returns:
+            Description of the return value.
+        """
         return self.area() >= other.area()
 
     def __ne__(self, other):
+        """__ne__ - Function documentation.
+        
+        Args:
+            self: Description of self.
+            other: Description of other.
+        
+        Returns:
+            Description of the return value.
+        """
+        """__ne__ - Function documentation.
+        
+        Args:
+            self: Description of self.
+            other: Description of other.
+        
+        Returns:
+            Description of the return value.
+        """
         return self.area() != other.area()
 
     def __gt__(self, other):
+        """__gt__ - Function documentation.
+        
+        Args:
+            self: Description of self.
+            other: Description of other.
+        
+        Returns:
+            Description of the return value.
+        """
+        """__gt__ - Function documentation.
+        
+        Args:
+            self: Description of self.
+            other: Description of other.
+        
+        Returns:
+            Description of the return value.
+        """
         return self.area() > other.area()
 
     def __eq__(self, other):
+        """__eq__ - Function documentation.
+        
+        Args:
+            self: Description of self.
+            other: Description of other.
+        
+        Returns:
+            Description of the return value.
+        """
+        """__eq__ - Function documentation.
+        
+        Args:
+            self: Description of self.
+            other: Description of other.
+        
+        Returns:
+            Description of the return value.
+        """
         return self.area() == other.area()

@@ -1,3 +1,4 @@
+"""Module documentation for 5-print_comb2.py."""
 #!/usr/bin/python3
 for number in range(0, 100):
     if number == 99:
